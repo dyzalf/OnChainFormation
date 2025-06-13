@@ -2822,10 +2822,11 @@ input, select, textarea {
 
 		.main.style2 {
 			background-color: #333;
-			color: rgba(255, 255, 255, 0.75);
-			background-attachment: fixed,							fixed;
-			background-image: url("images/overlay1.png"), url("../../images/header.jpg");
-			background-size: auto,							cover;
+			color: #fff;
+			background-attachment: fixed, fixed;
+			background-image: linear-gradient(rgb(0, 77, 194, 0.3), rgba(0, 77, 194, 0.3)), /* Filtre coloré */
+			url("images/overlay1.png"), url("../../images/header.jpg");
+			background-size: auto, cover;
 		}
 
 			.main.style2 a {
